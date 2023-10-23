@@ -1,15 +1,15 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>웹 폼</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output</title>
 </head>
-
 <body>
-	<form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)">
-		<input type="number" name="num1" value="0">
-		+<input type="number" name="num2" value="0">
-		=<output name="result" for="num"></output>
-	</form>
+    <form oninput="result.value=parseInt(num1.value) + parseInt(num2.value)">
+        <input type="number" name="num1" value="0">
+        +<input type="number" name="num2" value="0">
+        = <output name="result" for="num"></output>
+    </form>
 </body>
 </html>

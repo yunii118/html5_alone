@@ -4,8 +4,67 @@
 <head>
     <meta charset="utf-8">
     <title>2단 레이아웃</title>
-</head>
-<body>
+    <style>
+        #container{
+            width: 960px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        #header{
+           text-align: center; 
+           padding: 20px;
+           margin-bottom: 20px;
+        }
+        #sidebar{
+            width: 220px;
+            padding: 20px;
+            margin-bottom: 20px;
+            float: right;
+            text-align: center;
+        }
+        #contents{
+            width: 620px;
+            padding: 20px;
+            float: left;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #footer{
+            clear: both;
+            padding: 20px;
+            text-align: center;
+        }
+        div{
+            border: 1px solid black;
+        }
+    </style>
 
+</head>
+<body>  
+    <div id="container">
+        <div id="header">
+            <h1>사이트 제목</h1>
+        </div>
+        <div id="sidebar">
+            <h2>사이드바</h2>
+            <ul>
+                <li>대통령은 법률이 정하는 바에 의하여 훈장 기타의 영전을 수여한다.</li>
+                
+                </ul>
+        </div>
+        <div id="contents">
+            <h2>본문</h2>
+            <p>국회는 의원의 자격을 심사하며, 의원을 징계할 수 있다. 대통령은 국무회의의 의장이 되고, 국무총리는 부의장이 된다. 모든 국민은 학문과 예술의 자유를 가진다. 누구든지 체포 또는 구속을 당한 때에는 즉시 변호인의 조력을 받을 권리를 가진다. 다만, 형사피고인이 스스로 변호인을 구할 수 없을 때에는 법률이 정하는 바에 의하여 국가가 변호인을 붙인다.</p>
+
+            <p>국가는 평생교육을 진흥하여야 한다. 국회는 헌법개정안이 공고된 날로부터 60일 이내에 의결하여야 하며, 국회의 의결은 재적의원 3분의 2 이상의 찬성을 얻어야 한다. 일반사면을 명하려면 국회의 동의를 얻어야 한다. 모든 국민은 언론·출판의 자유와 집회·결사의 자유를 가진다. 모든 국민은 사생활의 비밀과 자유를 침해받지 아니한다.</p>
+
+
+        </div>
+        <div id="footer">
+            <h2>푸터</h2>
+            <p>대통령의 선거에 관한 사항은 법률로 정한다. 공개하지 아니한 회의내용의 공표에 관하여는 법률이 정하는 바에 의한다.</p>
+        </div>
+
+    </div>
 </body>
 </html>
